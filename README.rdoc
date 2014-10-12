@@ -2,3 +2,9 @@
 
 Please navigate to the directory GetSupplierGivenIDRailsProject/app/ and see the screenshots
 
+This programs demonstrates how Ruby is used to parse JSON strings with additional Rails feature
+ 
+Prompter for user to enter an ID
+Go out to the internet and collect some JSON 
+Parse associated data given that ID and print it in the browser
+
