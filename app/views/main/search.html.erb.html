@@ -1,0 +1,17 @@
+<h1>Welcome to the GetSupplierGivenIDRailsProject</h1>
+<p></p>
+      <section>	
+			<%= form_tag("/search", :method=>"get") do %>		
+				<%= label_tag(params[:product_id], "Search ProductID: ")%>
+				<%= text_field_tag(:product_id) %>	
+				<%= submit_tag("Search",class: "btn btn-large btn-warning")%> 
+			<% end %>
+		
+		</section>
+
+
+Your product name: <%= @product_name %> 
+<br>
+Your supplier name: <%= @supplier_name %>
+
+
